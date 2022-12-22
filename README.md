@@ -1,6 +1,7 @@
 Artificial Neural Network Classifier in TensorFlow/Keras for Binary Classification - Base problem category as per Ready Tensor specifications.
 
-- logistic regression
+- ANN
+- artifical neural network
 - sklearn
 - python
 - pandas
