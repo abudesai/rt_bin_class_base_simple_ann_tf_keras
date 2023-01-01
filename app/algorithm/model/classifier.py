@@ -58,7 +58,7 @@ class Classifier:
         x = input_
         x = Dense(M1, activity_regularizer=reg, activation="relu")(x)
         x = Dense(M2, activity_regularizer=reg, activation="relu")(x)
-        x = Dense(1, activity_regularizer=reg)(x)
+        x = Dense(1, activity_regularizer=reg, activation='sigmoid')(x)
         output_ = x
         model = Model(input_, output_)
         # model.summary()
